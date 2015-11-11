@@ -128,10 +128,20 @@ Theme Styles
 
 .main { margin-top: 100px; }
 
+body {background-color: #503817;}
+#introduction, #homage, #gyaltsabpa
+{
+	padding: 20px 8% 20px 8%;
+	margin: 20px 8% 20px 8%;
+	border: 5px double #241B60;
+
+	background-color: #fff;
+}
+
 .bg-image img
 {
 	width: 100%;
-	postion: absolute;
+	position: absolute;
 	top: 0;
 	left: 0;
 }
@@ -161,7 +171,6 @@ Theme Styles
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 80px;
 	background-color: #604820;
 	padding: 10px;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -179,8 +188,6 @@ Theme Styles
 }
 
 .nav a { color: #fff; }
-body#introduction { padding: 20px 15% 20px 15%; }
-body#homage { padding: 20px 15% 20px 15%; }
 
 h1.chap_head
 {
@@ -230,4 +237,12 @@ sup
 	margin-bottom: 10px;
 }
 
-.footnotes p {text-indent: 0;
+.footnotes p { text-indent: 0; }
+
+.highlight
+{
+	background-color: #E3E5AD;
+	border: 3px solid #E3E5AD;
+}
+
+.c11, .italic { font-style: italic; }
