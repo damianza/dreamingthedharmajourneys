@@ -126,13 +126,11 @@ a { text-decoration: none; }
 Theme Styles
 *******************************************************************************/
 
-.main { margin-top: 100px; }
-
 body {background-color: #503817;}
 #introduction, #homage, #gyaltsabpa
 {
 	padding: 20px 8% 20px 8%;
-	margin: 20px 8% 20px 8%;
+	margin: 80px 8% 20px 8%;
 	border: 5px double #241B60;
 
 	background-color: #fff;
@@ -171,19 +169,21 @@ body {background-color: #503817;}
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #604820;
-	padding: 10px;
+	height: 30px;
+	padding: 10px 10px 10px 8%;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	font-size: 1em;
+	font-size: .9em;
 	color: #FFF;
 	text-shadow: #000 2px 2px 3px;
 	letter-spacing: 0.02em;
+	background-color: #241B60;
+	border-bottom: 1px solid #fff;
 }
 
 .nav li
 {
 	display: table-cell;
-	padding: 3px 10px 3px 10px;
+	padding: 3px 3px 3px 0;
 	width: 20%;
 }
 
